@@ -18,11 +18,15 @@ body{
   align-items: center;
   padding: 20px;
   
-  background: url(animal3.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+    
+  width: 200px;
+  height: 200px;
+  background-image: url('animal3.jpg');
+  background-size:  cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 50%; 
+  overflow: hidden; 
 }
 #input{
   padding: 10px;
