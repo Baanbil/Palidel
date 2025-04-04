@@ -9,6 +9,11 @@ function checkPalindrome() {
     if (word === reverseWord) {
         document.getElementById("display").innerText = `${word} is a palindrome`;
         document.getElementById("display").style.color = "green"
+         confetti({
+     	particleCount: 150,
+     	spread: 70,
+     	origin: { y: 0.6 }
+  		 });
     } else {
         document.getElementById("display").innerText = `${word} is not a palindrome`;
         document.getElementById("display").style.color = "red"
